@@ -7,13 +7,13 @@ Basic Blink Project with all required libraries, etc.
 If cloning this repo from Github, you will want to do so with the submodules with:
 
 ```console
-git clone https://github.com/electro-smith/DaisyBlinkProject --recurse-submodules
+git clone https://github.com/daisyaudio/DaisyBlinkProject --recurse-submodules
 ```
 
 if you've already cloned the repo without this you can fill the submodules by running the following:
 
 ```console
-git submodule update --init
+git submodule update --init --recursive
 ```
 
 Alternatively, you can avoid using git, and building libraries if you download the latest zip compiled zip file in the releases.

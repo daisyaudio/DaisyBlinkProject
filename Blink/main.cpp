@@ -3,7 +3,7 @@
  *  This example blinks the Daisy Seed's LED
  *  once per second, as explained in the
  *  C++ Getting Started guide for the Daisy.
-*/
+ */
 #include "daisy_seed.h"
 
 using namespace daisy;
@@ -14,7 +14,7 @@ int main()
 {
     hardware.Init();
 
-    while (true)
+    while(true)
     {
         hardware.SetLed(true);
         hardware.DelayMs(500);
